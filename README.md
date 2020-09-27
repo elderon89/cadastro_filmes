@@ -34,11 +34,17 @@ Segue a relação das tecnologias envolvidas neste projeto:
 ### Como rodar o projeto
 
 Passo 1: Instalar a ferramenta Laragon na unidade (C:);
+
 Passo 2: Descompactar os arquivos deste projeto no caminho C:\laragon\www criando assim a pasta rede-magic-teste com todos os arquivos;
+
 Passo 3: Utilizar o Windows Powershell executa modo administrador na máquina;
+
 Passo 4: Executar o comando 'cd C:\laragon\www\rede-magic-teste';
+
 Passo 5: Executar o comando 'code .' para iniciar o VS Code no repositório do projeto;
+
 Passo 6: Executar o Laragon para executar o servidor Apache na porta 80 e o MySQL na porta 3306 (padrão), o HeidiSQL para acompanhar as alterações no banco de dados aplicadas pelo Postman (vem uma versão portable dentro do Laragon se precisar) e executar o Postman com as Collations pré-definidas e disponibilizadas;
+
 Passo 7: Executar as requisições no Postman e conferir a Inserção, Exclusão, Atualização e Listagem dos dados no banco pelo próprio aplicativo.
 
 ## Documentação
