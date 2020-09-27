@@ -35,11 +35,11 @@ Segue a relação das tecnologias envolvidas neste projeto:
 
 Passo 1: Instalar a ferramenta Laragon na unidade (C:);
 
-Passo 2: Descompactar os arquivos deste projeto no caminho C:\laragon\www criando assim a pasta rede-magic-teste com todos os arquivos;
+Passo 2: Descompactar os arquivos deste projeto no caminho C:\laragon\www criando assim a pasta rede-magic com todos os arquivos;
 
 Passo 3: Utilizar o Windows Powershell executa modo administrador na máquina;
 
-Passo 4: Executar o comando 'cd C:\laragon\www\rede-magic-teste';
+Passo 4: Executar o comando 'cd C:\laragon\www\rede-magic';
 
 Passo 5: Executar o comando 'code .' para iniciar o VS Code no repositório do projeto;
 
