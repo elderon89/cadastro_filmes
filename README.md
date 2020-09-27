@@ -2,12 +2,12 @@
 
 API REST – Utilizando Laravel para cadastro de:
 
-- Filmes
-- Classificação do Filme
-- Atores
-- Diretor
-- Collection do postman para consumo e teste da API: https://www.getpostman.com/collections/2e1e673e35b6bce03a3f
-- Documentação de como startar a API (comandos necessários, criação de base, migration, etc.)
+- Filmes (título)
+- Classificação do Filme (X anos)
+- Atores (Separados por vírgula)
+- Diretor (Separados por vírgula quando mais de um)
+- Link da collection do Postman para consumo e teste da API: https://www.getpostman.com/collections/2e1e673e35b6bce03a3f
+- Documentação de como startar a API (comandos necessários, criação de base, migration, etc.) abaixo
 
 ## Ferramentas
 
