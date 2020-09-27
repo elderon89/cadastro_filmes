@@ -1,69 +1,84 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+## Sobre o teste
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+API REST – Utilizando Laravel para cadastro de:
 
-## About Laravel
+- Filmes
+- Classificação do Filme (Por ex.: 16 anos)
+- Atores (Separados por vírgula, por ex.: Leonardo DiCaprio, Kate Winslet)
+- Diretor (Separados por vírgula quando mais de um, conforme exemplo dos atores acima)
+- Link da collection do Postman para consumo e teste da API: https://www.getpostman.com/collections/2e1e673e35b6bce03a3f
+- Documentação de como startar a API (comandos necessários, criação de base, migration, etc.)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Ferramentas
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+- LARAGON (https://laragon.org/): Laragon foi criado por Leo Khoa. Ele é chefe de DevOps para uma empresa de SaaS em rápido crescimento. Ele construiu Laragon com um objetivo: tornar o desenvolvimento web rápido, divertido e agradável.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- HEIDISQL (https://www.heidisql.com/): O HeidiSQL é um software livre e tem como objetivo ser fácil de aprender. Permite ver e editar dados e estruturas de computadores rodando um dos sistemas de banco de dados MariaDB, MySQL, Microsoft SQL, PostgreSQL e SQLite. Inventado em 2002 por Ansgar, HeidiSQL pertence às ferramentas mais populares para MariaDB e MySQL em todo o mundo.
 
-## Learning Laravel
+- POSTMAN (https://www.postman.com/): Simplifica cada etapa da construção de uma API e agiliza a colaboração para que seja possível criar APIs melhores e mais rapidamente.
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-=======
-- Windows Powershell (https://docs.microsoft.com/pt-br/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7): PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script desenvolvido no .NET. Inicialmente, apenas um componente do Windows, o PowerShell tornou-se de código aberto e multiplataforma em 18 de agosto de 2016 com a introdução do PowerShell Core.
->>>>>>> parent of 8d965d6... Update README.md
-=======
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
->>>>>>> parent of 1262fda... README.md
+- WINDOWS POWERSHELL (https://docs.microsoft.com/pt-br/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7): PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script desenvolvido no .NET. Inicialmente, apenas um componente do Windows, o PowerShell tornou-se de código aberto e multiplataforma em 18 de agosto de 2016 com a introdução do PowerShell Core.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- VS CODE (https://code.visualstudio.com/): O Visual Studio Code é um editor de código redefinido e otimizado para criar e depurar aplicativos modernos da web e na nuvem.
 
-## Laravel Sponsors
+## Tecnologias
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Segue a relação das tecnologias envolvidas neste projeto:
+- API Rest
+- Laravel (framework)
+- PHP
+- Bootstrap
+- MySQL (banco de dados)
+- Git (Github)
 
-### Premium Partners
+### Como rodar o projeto
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+Passo 1: Instalar a ferramenta Laragon na unidade (C:);
 
-## Contributing
+Passo 2: Descompactar os arquivos deste projeto no caminho C:\laragon\www criando assim a pasta rede-magic-teste com todos os arquivos;
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Passo 3: Utilizar o Windows Powershell executa modo administrador na máquina;
 
-## Code of Conduct
+Passo 4: Executar o comando 'cd C:\laragon\www\rede-magic-teste';
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Passo 5: Executar o comando 'code .' para iniciar o VS Code no repositório do projeto;
 
-## Security Vulnerabilities
+Passo 6: Executar o Laragon para executar o servidor Apache na porta 80 e o MySQL na porta 3306 (padrão), o HeidiSQL para acompanhar as alterações no banco de dados aplicadas pelo Postman (vem uma versão portable dentro do Laragon se precisar) e executar o Postman com as Collations pré-definidas e disponibilizadas;
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Passo 7: Executar as requisições no Postman e conferir a Inserção, Exclusão, Atualização e Listagem dos dados no banco pelo próprio aplicativo.
 
-## License
+## Documentação
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Comandos executados no terminal para gerar os arquivos e códigos do projeto:
+
+Criando uma model e uma migration para o projeto: php artisan make:model Models\Filme -m
+
+Foi feito um fillable como se encontra dentro da model User.php e inserido no model Filme.php
+
+Dentro da migration criada pelo comando no terminal, criamos os campos do tipo string na tabela com os atributos titulo, classificacao, atores e diretor.
+
+Feito isso, o próximo comando executado foi: php artisan migrate
+
+Após executado o comando acima, foi criado automaticamente o banco de dados rede-magic-teste na base dados no Localhost conforme foi possível visualizar no HeidiSQL com a tabela filmes.
+
+Em seguida, foi executado o seguinte comando para a crianção do controlador: php artisan make:controller api\FilmeController --resource
+
+O --resource foi utilizado pois ele já cria alguns métodos automaticamente.
+
+Dentro de FilmeController.php foram configuradas apenas as funções index, store, show, update e destroy
+
+Injetando a model com a linha de comando neste arquivo de controlador: use App\Models\Filme;
+
+Para utilizar o funcionamento de rotas, no arquivo api.php foi inserido a linha de comando: Route::apiResource('dogs', 'api\DogController)
+
+Não foi necessário passar nenhum @ pois ela automaticamente trará todos os métodos
+
+Feito isso, com o Postman, foi possível testar cada uma das rotas GET, POST, PUT e DEL e ver seu funcionamento aplicado tanto no Console do aplicativo quanto atualizando a base de dados através do HeidiSQL
+
+## Sobre o Framework Laravel
+
+O framework Laravel é um software de código aberto licenciado sob a [licença MIT] (https://opensource.org/licenses/MIT).
+
+Se você descobrir uma vulnerabilidade de segurança no Laravel, envie um e-mail para Taylor Otwell via [taylor@laravel.com] (mailto: taylor@laravel.com). Todas as vulnerabilidades de segurança serão resolvidas imediatamente.
+
+A fim de garantir que a comunidade Laravel seja bem-vinda a todos, por favor, reveja e cumpra o [Código de Conduta] (https://laravel.com/docs/contributions#code-of-conduct).
