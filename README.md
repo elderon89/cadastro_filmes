@@ -24,10 +24,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Learning Laravel
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 =======
 - Windows Powershell (https://docs.microsoft.com/pt-br/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7): PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script desenvolvido no .NET. Inicialmente, apenas um componente do Windows, o PowerShell tornou-se de código aberto e multiplataforma em 18 de agosto de 2016 com a introdução do PowerShell Core.
 >>>>>>> parent of 8d965d6... Update README.md
+=======
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+>>>>>>> parent of 1262fda... README.md
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
