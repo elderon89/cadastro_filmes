@@ -2,7 +2,7 @@
 
 API REST – Utilizando Laravel para cadastro de:
 
-- Filmes
+- Filmes (Título do filme)
 - Classificação do Filme (Por ex.: 16 anos)
 - Atores (Separados por vírgula, por ex.: Leonardo DiCaprio, Kate Winslet)
 - Diretor (Separados por vírgula quando mais de um, conforme exemplo dos atores acima)
@@ -25,10 +25,10 @@ API REST – Utilizando Laravel para cadastro de:
 
 Segue a relação das tecnologias envolvidas neste projeto:
 - API Rest
-- Laravel (framework)
+- Laravel (Framework)
 - PHP
 - Bootstrap
-- MySQL (banco de dados)
+- MySQL (Banco de dados)
 - Git (Github)
 
 ### Como rodar o projeto
