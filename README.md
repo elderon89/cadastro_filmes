@@ -43,9 +43,11 @@ Passo 4: Executar o comando 'cd C:\laragon\www\rede-magic-teste';
 
 Passo 5: Executar o comando 'code .' para iniciar o VS Code no repositório do projeto;
 
-Passo 6: Executar o Laragon para executar o servidor Apache na porta 80 e o MySQL na porta 3306 (padrão), o HeidiSQL para acompanhar as alterações no banco de dados aplicadas pelo Postman (vem uma versão portable dentro do Laragon se precisar) e executar o Postman com as Collations pré-definidas e disponibilizadas;
+Passo 6: Executar o Laragon para executar o servidor Apache na porta 80 e o MySQL na porta 3306 (padrão);
 
-Passo 7: Executar as requisições no Postman e conferir a Inserção, Exclusão, Atualização e Listagem dos dados no banco pelo próprio aplicativo.
+Passo 7: Executar o HeidiSQL para acompanhar as alterações no banco de dados aplicadas pelo Postman (vem uma versão portable dentro do Laragon se precisar)
+
+Passo 8: Executar as requisições no Postman e conferir a Inserção, Exclusão, Atualização e Listagem dos dados no banco pelo próprio aplicativo.
 
 ## Documentação
 
@@ -69,11 +71,11 @@ Dentro de FilmeController.php foram configuradas apenas as funções index, stor
 
 Injetando a model com a linha de comando neste arquivo de controlador: use App\Models\Filme;
 
-Para utilizar o funcionamento de rotas, no arquivo api.php foi inserido a linha de comando: Route::apiResource('dogs', 'api\DogController)
+Para utilizar o funcionamento de rotas, no arquivo api.php foi inserido a linha de código: Route::apiResource('dogs', 'api\DogController)
 
 Não foi necessário passar nenhum @ pois ela automaticamente trará todos os métodos
 
-Feito isso, com o Postman, foi possível testar cada uma das rotas GET, POST, PUT e DEL e ver seu funcionamento aplicado tanto no Console do aplicativo quanto atualizando a base de dados através do HeidiSQL
+Feito isso, com o Postman foi possível testar cada uma das rotas (GET, POST, PUT e DEL) e ver seu funcionamento aplicado tanto no Console do aplicativo quanto atualizando a base de dados e conferindo através do aplicativo HeidiSQL
 
 ## Sobre o Framework Laravel
 
