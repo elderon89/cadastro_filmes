@@ -81,4 +81,4 @@ O framework Laravel é um software de código aberto licenciado sob a [licença 
 
 Se você descobrir uma vulnerabilidade de segurança no Laravel, envie um e-mail para Taylor Otwell via [taylor@laravel.com] (mailto: taylor@laravel.com). Todas as vulnerabilidades de segurança serão resolvidas imediatamente.
 
-A fim de garantir que a comunidade Laravel seja bem-vinda a todos, por favor, reveja e cumpra o [Código de Conduta] (https://laravel.com/docs/contributions#code-of-conduct).
+A fim de garantir que a comunidade Laravel seja bem vinda a todos, por favor, reveja e cumpra o [Código de Conduta] (https://laravel.com/docs/contributions#code-of-conduct).
