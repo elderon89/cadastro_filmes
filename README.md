@@ -17,7 +17,7 @@ API REST – Utilizando Laravel para cadastro de:
 
 - POSTMAN (https://www.postman.com/): Simplifica cada etapa da construção de uma API e agiliza a colaboração para que seja possível criar APIs melhores e mais rapidamente.
 
-- Windows Powershell (https://docs.microsoft.com/pt-br/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7): PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script desenvolvido no .NET. Inicialmente, apenas um componente do Windows, o PowerShell tornou-se de código aberto e multiplataforma em 18 de agosto de 2016 com a introdução do PowerShell Core.
+- WINDOWS POWERSHELL (https://docs.microsoft.com/pt-br/powershell/scripting/windows-powershell/starting-windows-powershell?view=powershell-7): PowerShell é um shell de linha de comando baseado em tarefas e linguagem de script desenvolvido no .NET. Inicialmente, apenas um componente do Windows, o PowerShell tornou-se de código aberto e multiplataforma em 18 de agosto de 2016 com a introdução do PowerShell Core.
 
 - VS CODE (https://code.visualstudio.com/): O Visual Studio Code é um editor de código redefinido e otimizado para criar e depurar aplicativos modernos da web e na nuvem.
 
